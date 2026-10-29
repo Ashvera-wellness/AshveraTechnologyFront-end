@@ -17,7 +17,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="relative z-50 border-b border-white/[0.09] bg-[#030914]/90 text-white backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-white/[0.09] bg-[#030914]/90 text-white shadow-lg backdrop-blur-md">
       <nav className="mx-auto flex min-h-[94px] max-w-[1540px] items-center justify-between gap-5 px-5 py-3 sm:px-8 xl:px-12">
         <a href="/" aria-label="Ashvera Technology home" className="shrink-0">
           <img
